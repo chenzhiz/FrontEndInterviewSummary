@@ -44,7 +44,7 @@ var nextPermutation = function(nums) {
 };
 
 // 看看题解
-// 两边遍历(从后找到第一个下降的拐点，拐点之后的一定是单调增的)
+// 两边遍历(从后找到第一个下降的拐点，拐点之后的一定是单调下降)
 // 第二遍从后遍历找到第一个大于拐点前的数，交换位置后（后面肯定还是单调下降的，转换成单调上升）
 var nextPermutation = function(nums){
   const n = nums.length;

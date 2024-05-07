@@ -38,6 +38,9 @@ var minWindow = function (s, t) {
 
   return s.slice(l, l + min)
 }
+
+
+
 // 滑动窗口题
 // 双指针 + 计数，滑动窗口统计中间单词数量，再来一个额外的变量统计够不够匹配上数量
 var minWindow = function (s, t){

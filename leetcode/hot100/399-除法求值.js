@@ -66,6 +66,7 @@
  * @return {number[]}
  */
 var calcEquation = function(equations, values, queries){
+  // 相对于祖先节点是一个明智的选择
   let p = new Map()
   // w 是根节点的多少倍
   let w = new Map()

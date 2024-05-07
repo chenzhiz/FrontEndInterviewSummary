@@ -14,7 +14,7 @@ var coinChange = function(coins, amount) {
     }
   }
   f[amount] = f[amount] == 1 << 30 ? -1 : f[amount]
-  return f[amount]
+  return f[amount] 
 };
 
 console.log(coinChange([1], 0))
